@@ -24,11 +24,6 @@ init python:
                 p = subprocess.Popen('cd {0}\game\PPython && python "{0}\game\discord.py"'.format(os.getcwd()), shell=True) ### START RPC IN BACKGROUND ###
         except:
             pass
-    whathere = None
-    texthere = None
-    textthere = None
-    day = ""
-    st = ""
 
 label rpc: # callable label to set state. 
     if discordrun:
