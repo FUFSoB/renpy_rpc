@@ -4,7 +4,7 @@ import random
 import sys
 import os
 
-client_id = 'id' # id of your application
+client_id = 'id' # id of your Discord application
 large_text = "Game" # text of large img of your app
 large_image = "logo" # large img of your app
 small_text = "FUFSoB" # text of small img of your app
@@ -33,6 +33,13 @@ while True:
         elif "sp" == mb:
             details = "Game is loading"
             state = None
+            large_text = "Game"
+            large_image = "logo" 
+            small_text = "FUFSoB"
+            small_image = "fuf" 
+        else:
+            details = "'state.txt': Status error"
+            state = "Error 1: incorrect arg: '{0}'".format(file)
             large_text = "Game"
             large_image = "logo" 
             small_text = "FUFSoB"
