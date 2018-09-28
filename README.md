@@ -64,5 +64,17 @@ __Added files:__ `discord.py`, `setupRPC.rpy`
 _To check how it works you just need to add all these files in DDLC "game" folder._
 ## Known bugs:
    1) Incorrect text in "small image" when you have to choose in game.
+   
+  <details>
+   <summary>Screenshots</summary>
+   
+![Profile vision, small image text](https://cdn.discordapp.com/attachments/449909202014568468/495253735241416708/unknown.png)
+
+![Profile vision, large image text](https://cdn.discordapp.com/attachments/449909202014568468/495253871799566336/unknown.png)
+
+![Small vision](https://cdn.discordapp.com/attachments/449909202014568468/495254297060311040/unknown.png)
+
+![Small vision, large image text](https://cdn.discordapp.com/attachments/449909202014568468/495254837680799744/unknown.png)
+  </details>
 </details>
 
