@@ -4,6 +4,7 @@ import random
 import sys
 import os
 
+starttime = int(time.time())
 client_id = '487972734085759018'
 large_text = "DDLC"
 large_image = "logo"
@@ -267,4 +268,4 @@ while True:
         small_text = "DDLC"
     elif small_text.startswith("<Dynamic>"):
         small_text = "[No text]"
-    RPC.update(details=details, state=state, large_image=large_image, large_text=large_text, small_image=small_image, small_text=small_text)
+    RPC.update(details=details, state=state, start = starttime, large_image=large_image, large_text=large_text, small_image=small_image, small_text=small_text)
