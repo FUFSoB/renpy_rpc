@@ -4,6 +4,7 @@ import random
 import sys
 import os
 
+starttime = int(time.time())
 client_id = 'id' # id of your Discord application
 large_text = "Game" # text of large img of your app
 large_image = "logo" # large img of your app
@@ -51,4 +52,4 @@ while True:
         large_image = "logo" 
         small_text = "FUFSoB"
         small_image = "fuf" 
-    RPC.update(details=details, state=state, large_image=large_image, large_text=large_text, small_image=small_image, small_text=small_text) # update status of rpc
+    RPC.update(details=details, state=state, start = starttime, large_image=large_image, large_text=large_text, small_image=small_image, small_text=small_text) # update status of rpc
