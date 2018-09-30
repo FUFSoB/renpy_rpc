@@ -1,15 +1,17 @@
 # Ren'Py RPC
-Ren'Py Discord Rich Presence, using python 3.6.
+[![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=10)](https://github.com/qwertyquerty/pypresence) 
 
 [Download python.zip](https://drive.google.com/file/d/1Oubxytg3W_AzHJ4jVwCT-Aa3rjB-8FeX/view?usp=drivesdk)
 
 [Discord server](https://discord.gg/HTPB4Wm), ℱŮℱṦøℬ#1337
 
-## Usage:
+## Instructions:
    1. Put `discord.py`, `setupRPC.rpy` and `python.zip` in your `game` folder.
    2. Edit your splash.rpy __[all labels are currently exist, you just need to add code]__ *(code's below)*
-   3. Add `$ state = "something"` everywhere you wanted status to change.
-   4. Just run your game. First of all - it'll unzip `python.zip` and delete it after that. Then it will rewrite status to "Loading" and run `discord.py`.
+   3. Create your own Rich Presence application on [Discord API page](https://discordapp.com/developers/applications/), [Video Guide](https://youtu.be/jGF-L0iEBH4?t=8s) (till 0:58)
+   4. Edit `discord.py` for your own, using your `application id`; adding `assets` and `text` you wanted.
+   5. Add `$ state = "something"` everywhere you wanted status to change.
+   6. Just run your game. First of all - it'll unzip `python.zip` and delete it after that. Then it will rewrite status to "Loading" and run `discord.py`. After you've tested that, you can public your project with `rpc` (including all 3 `.py`, `.rpy(c)` and `.zip` files).
 <details>
   <summary>splash.rpy</summary>
   
@@ -77,4 +79,5 @@ _To check how it works you just need to add all these files in DDLC "game" folde
 ![Small vision, large image text](https://cdn.discordapp.com/attachments/449909202014568468/495254837680799744/unknown.png)
   </details>
 </details>
+
 
